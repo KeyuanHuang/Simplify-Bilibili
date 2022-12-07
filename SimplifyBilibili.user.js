@@ -13,11 +13,12 @@
     'use strict';
 
     const globalBlockList = [
-        ".mini-header__title",
-        ".default-entry", //顶栏左侧元素
+        ".download-client-trigger.download-entry", //客户端下载标签
+        //".mini-header__title", //首页标签
+        //".default-entry", //顶栏左侧除首页外的所有标签
         ".recommend-list-v1", //侧边栏相关视频推荐
         ".ad-floor-exp.ad-report", //视频播放界面的广告
-        ".part-undefined.report-scroll-module.report-wrap-module.pop-live-small-mode", //直播推荐
+        ".part-undefined.report-scroll-module.report-wrap-module.pop-live-small-mode", //视频播放页面的直播推荐
         ".trending", //热搜
     ];
 
