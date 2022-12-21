@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Simplify Bilibili
-// @namespace    https://github.com/KeyuanHuang/Simplify-Bilibili/raw/main/main.user.js
+// @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
 // @author       Keyuan Huang
@@ -35,7 +35,10 @@ const css = `
 
 [foo=bar] {
   display: none !important
-}
+},
 `
-
 GM_addStyle(css)
+
+setInterval(() => {
+  document.querySelector('input.nav-search-input')?.removeAttribute('placeholder')
+}, 10)
