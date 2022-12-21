@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Simplify Bilibili
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/KeyuanHuang/Simplify-Bilibili/raw/main/main.user.js
 // @version      0.1
 // @description  try to take over the world!
 // @author       Keyuan Huang
