@@ -20,6 +20,7 @@ const css = `
 
 /* 下载客户端按键 */
 .download-client-trigger.download-entry,
+.download-client-trigger.link,
 
 /* 播放页面右侧推荐视频 */
 .recommend-list-v1,
@@ -39,6 +40,7 @@ const css = `
 `
 GM_addStyle(css)
 
+// 移除搜索框中预设的热词
 setInterval(() => {
   document.querySelector('input.nav-search-input')?.removeAttribute('placeholder')
 }, 10)
