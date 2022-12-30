@@ -1,5 +1,7 @@
 # Simplify-Bilibili
 
+[脚本链接](https://github.com/KeyuanHuang/Simplify-Bilibili/raw/main/main.user.js)
+
 功能：
 - 精简顶栏左侧标签
 - 去掉动态页面左右侧边栏、动态发布输入框
