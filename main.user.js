@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Simplify Bilibili
-// @namespace    https://github.com/KeyuanHuang/Simplify-Bilibili/raw/main/main.user.js
-// @version      0.1
-// @description  Simplify UI of bibibili.com
+// @namespace    http://tampermonkey.net/
+// @version      0.2
+// @description  try to take over the world!
 // @author       Keyuan Huang
 // @run-at       document-start
 // @match        *://*.bilibili.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=bilibili.com
 // @grant        GM_addStyle
 // ==/UserScript==
 
@@ -20,6 +21,9 @@ const css = `
 /* 下载客户端按键 */
 .download-client-trigger.download-entry,
 .download-client-trigger.link,
+
+/* 多余的导航键 */
+li.nav-link-item:nth-of-type(n+6),
 
 /* 播放页面右侧推荐视频 */
 .recommend-list-v1,
