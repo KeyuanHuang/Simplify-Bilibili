@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name         Simplify Bilibili
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/KeyuanHuang/Simplify-Bilibili/raw/main/main.user.js
 // @version      0.1
-// @description  try to take over the world!
+// @description  Simplify UI of bibibili.com
 // @author       Keyuan Huang
 // @run-at       document-start
 // @match        *://*.bilibili.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=bilibili.com
 // @grant        GM_addStyle
 // ==/UserScript==
 
